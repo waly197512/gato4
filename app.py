@@ -4,7 +4,8 @@ import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 
 # Configurar la página con un layout amplio y un título
-st.set_page_config(page_title="SRDM - Recomendador de Mascotas", layout="wide")
+# DEBE SER EL PRIMER COMANDO DE STREAMLIT
+st.set_page_config(page_title="Tu compañia perfecta", layout="wide")
 
 # Cargar estilos personalizados desde un archivo externo
 def load_css(file_name):
