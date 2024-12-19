@@ -60,7 +60,7 @@ if st.sidebar.button("Descubrir mi mascota ideal"):
         'ruido': ruido,
         'companero': companero
     }
-    encoder = OneHotEncoder(sparse_output=False)
+    encoder = OneHotEncoder(sparse=False)
     df_encoded = pd.DataFrame(encoder.fit_transform(df[['horario', 'actividad', 'ambiente', 'ruido', 'companero']]))
     usuario_encoded = encoder.transform([[usuario_respuestas['horario'], 
                                           usuario_respuestas['actividad'], 
