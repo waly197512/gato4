@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to bottom, #E0FFFF, #B0E0E6);
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.stApp {
+    background: transparent;
+}
+   
